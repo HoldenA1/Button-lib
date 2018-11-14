@@ -1,4 +1,4 @@
-# Button-lib
-A simple library to create custom mouse-clickable buttons on a JPanel
+# GUI-lib
+A simple library to create custom mouse-clickable gui elements on a JPanel
 
-[Download Jar](https://www.hackerlife.tech/projects/button.jar)
+[Download Jar](https://www.hackerlife.tech/projects/gui.jar)
