@@ -1,4 +1,4 @@
-package button;
+package gui;
 
 import java.awt.event.*;
 
