@@ -1,9 +1,9 @@
-package tech.hackerlife.sim.display.gui.checkBox;
+package gui.checkBox;
 
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Point;
-import tech.hackerlife.sim.display.gui.GUIElement;
+import gui.GUIElement;
 
 public class CheckBox extends GUIElement {
 	private boolean checked = false;

@@ -1,9 +1,9 @@
-package tech.hackerlife.sim.display.gui.slider;
+package gui.slider;
 
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Point;
-import tech.hackerlife.sim.display.gui.GUIElement;
+import gui.GUIElement;
 
 public class Slider extends GUIElement {
 	private int value = 0;

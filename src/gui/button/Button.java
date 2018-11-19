@@ -1,7 +1,7 @@
-package tech.hackerlife.sim.display.gui.button;
+package gui.button;
 
 import java.awt.*;
-import tech.hackerlife.sim.display.gui.GUIElement;
+import gui.GUIElement;
 
 public class Button extends GUIElement {
 	

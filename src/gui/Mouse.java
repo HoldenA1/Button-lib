@@ -1,4 +1,4 @@
-package tech.hackerlife.sim.display.gui;
+package gui;
 
 import java.awt.event.*;
 
