@@ -75,5 +75,9 @@ public abstract class GUIElement {
 	public void setVisibility(boolean isVisible) {
 		this.isVisible = isVisible;
 	}
+	
+	public boolean isVisible() {
+		return isVisible;
+	}
 
 }
