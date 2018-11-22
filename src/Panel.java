@@ -37,10 +37,10 @@ public class Panel extends JPanel {
 		if (b1.isPressed() || b2.isPressed()) {
 			System.out.println("this is a button");
 		}
-		if (c1.isChecked() || c2.isChecked()) {
-			System.out.println("this is a checkbox");
-		}
-		System.out.println(s.getValue());
+//		if (c1.isChecked() || c2.isChecked()) {
+//			System.out.println("this is a checkbox");
+//		}
+//		System.out.println(s.getValue());
 		repaint();
 	}
 	
