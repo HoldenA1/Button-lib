@@ -1,8 +1,6 @@
-package gui.button;
+package tech.hackerlife.gui;
 
 import java.awt.*;
-import gui.GUIElement;
-import gui.Mouse;
 
 public class Button extends GUIElement {
 	

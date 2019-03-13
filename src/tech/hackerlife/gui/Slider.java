@@ -1,10 +1,8 @@
-package gui.slider;
+package tech.hackerlife.gui;
 
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Point;
-import gui.GUIElement;
-import gui.Mouse;
 
 public class Slider extends GUIElement {
 	private int value = 0;

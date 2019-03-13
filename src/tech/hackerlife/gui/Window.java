@@ -1,3 +1,5 @@
+package tech.hackerlife.gui;
+
 import javax.swing.JFrame;
 
 public class Window extends JFrame {
@@ -18,6 +20,11 @@ public class Window extends JFrame {
 	 */
 	public Window changeCloseOperation(int operation) {
 		setDefaultCloseOperation(operation);
+		return this;		
+	}
+	
+	public Window setResizeable(boolean isResizable) {
+		setResizable(isResizable);
 		return this;		
 	}
 	

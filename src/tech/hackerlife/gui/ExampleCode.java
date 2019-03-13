@@ -1,12 +1,11 @@
+package tech.hackerlife.gui;
+
 import java.awt.*;
 import javax.swing.*;
-import gui.GUIManager;
-import gui.Mouse;
-import gui.button.Button;
-import gui.checkBox.CheckBox;
-import gui.slider.Slider;
+import tech.hackerlife.gui.Button;
+import tech.hackerlife.gui.Window;
 
-public class Panel extends JPanel {
+public class ExampleCode extends JPanel {
 	private static final long serialVersionUID = 2L;
 	
 	Button b1;
@@ -17,7 +16,7 @@ public class Panel extends JPanel {
 	GUIManager gm = new GUIManager();
 	Mouse m = new Mouse();
 	
-	public Panel() {
+	public ExampleCode() {
 		this.addMouseListener(m);
 		b1 = new Button("Button One", 50, 60, 300, 70);
 		gm.add(b1);
@@ -37,16 +36,12 @@ public class Panel extends JPanel {
 		if (b1.isPressed() || b2.isPressed()) {
 			System.out.println("this is a button");
 		}
-//		if (c1.isChecked() || c2.isChecked()) {
-//			System.out.println("this is a checkbox");
-//		}
-//		System.out.println(s.getValue());
 		repaint();
 	}
 	
 	public static void main(String[] args) {	
 		Window w = new Window("GUI Demo");
-		Panel p = new Panel();
+		ExampleCode p = new ExampleCode();
 		w.add(p);		
 	}
 

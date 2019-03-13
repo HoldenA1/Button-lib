@@ -1,10 +1,8 @@
-package gui.checkBox;
+package tech.hackerlife.gui;
 
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Point;
-import gui.GUIElement;
-import gui.Mouse;
 
 public class CheckBox extends GUIElement {
 	private boolean checked = false;
